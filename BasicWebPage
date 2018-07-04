@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Web Page</title>
+  <style>
+  
+body{
+				background-image: url("volcano.jpeg");
+				background-size: 1440px 900px;
+				
+		}
+		h1,h2,p{
+			color:#faf9f9;
+			
+		}
+		header{
+			margin-bottom: 50px;
+			padding:20px;
+			
+		}
+		.paratext{
+			padding: 20px;
+
+		}
+
+	
+
+		.dropbtn {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 16px;
+	    font-size: 16px;
+	    border: none;
+	    cursor: pointer;
+		}
+
+		.dropdown {
+	    position: relative;
+	    display: inline-block;
+		}
+
+		.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+		}
+
+		.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		.dropdown:hover .dropdown-content {
+	    display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+	    background-color: #3e8e41;
+		}
+
+		.contactform{
+			text-align: center;
+			
+			color:white;
+		}
+  </style>
+</head>
+<body>
+	<header>
+		<div><h1>Basic Web page</h1></div>
+			<nav>
+				<div class="dropdown">
+					<button class="dropbtn">Dropdown</button>
+					  <div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+				</div>
+			</nav>
+	</header>
+
+
+	<div class = "paratext">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis venenatis lorem. Nunc malesuada pharetra ante, vitae gravida erat porttitor a. Fusce congue tellus est, id suscipit purus cursus vitae. Sed sed velit lorem. Nullam tristique, turpis eu scelerisque ultrices, velit sapien ultrices elit, id lobortis tortor tortor ac arcu. Nullam posuere, felis vel fringilla tristique, dolor diam pellentesque arcu, vitae commodo orci est ut ex. Nulla et felis odio. Ut eget dui non risus malesuada sollicitudin. Maecenas pellentesque, tellus sed fermentum eleifend, ligula libero commodo justo, a tempus velit urna ac felis. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in feugiat massa
+		</p>
+	</div>
+
+	
+
+</body>
+</html>
